@@ -24,7 +24,7 @@ Develop various deep learning models to accurate classify heartbeats from ECG si
 * S (1): Supraventricular Ectopic Beat: This type of beat originates from the heart's atria or the AV node, leading to premature contractions.
 * V (2): Ventricular Ectopic Beat: These beats originate from the ventricles, often associated with heart conditions like ventricular tachycardia.
 * F (3): Fusion Beat: This occurs when a normal beat and an ectopic beat merge, creating a unique waveform.
-* Q (4): Unknown Beat: This category is for heartbeats that cannot be definitively classified into any of the other categories. \
+* Q (4): Unknown Beat: This category is for heartbeats that cannot be definitively classified into any of the other categories. 
 
 Deep learning models used:
 * RNN (98.84% test accuracy)

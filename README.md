@@ -27,11 +27,11 @@ Develop various deep learning models to accurate classify heartbeats from ECG si
 * Q (4): Unknown Beat: This category is for heartbeats that cannot be definitively classified into any of the other categories. 
 
 Deep learning models used:
-* RNN (98.84% test accuracy)
-* CNN (98.71% test accuracy)
-* GRU with Attention (98.93% test accuracy) 
+* RNN (**98.84%** test accuracy)
+* CNN (**98.71%** test accuracy)
+* GRU with Attention (**98.93%** test accuracy) 
 
-We also experimented with various data augmentation techniques to better generalise model learning. We could improve our best model (GRU with Attention) up to 98.96% test accuracy. 
+We also experimented with various data augmentation techniques to better generalise model learning. We could improve our best model (GRU with Attention) up to **98.96%** test accuracy. 
 
 Through the use of Explanability Techniques such as Local Interpretable Model-agnostic Explanations (LIME) and feature map visualisation, insights into how the various models make their classifications are found. 
 
